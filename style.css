@@ -51,7 +51,7 @@
         padding-top: 70px;
     }    
 
-    .signup-buttons-container{
+    .social-login-buttons-container{
         padding-top: 20px;
     }
 
@@ -89,12 +89,15 @@
         font-weight: 400;
     }
 
-    .signup-forms{
+    .login-forms{
         display: grid;
         grid-template-rows: 2fr 2fr 2fr;
     }
+    .login-forms input::placeholder{
+        text-align: center;
+    }
 
-    .signup-forms input{
+    .login-forms input{
         width: 330px;
         height: 43px;
         background: #FFFFFF;
@@ -104,15 +107,18 @@
         margin: 4px;
     }
 
-    .signup-button-container button{
+    .login-button-container{
+        margin-top: -30px;
+    }
+    
+    .login-button-container button{
         width: 330px;
         height: 46px;
         background: #DB3022;
         border-radius: 5px;
-        margin-top: 30px;
     }
 
-    .sign-up-links span a{
+    .login-links span a{
         color:  #DB3022;
         text-decoration: none;
     }
